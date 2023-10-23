@@ -345,7 +345,8 @@ position: absolute;
 
 .skill__items{
   display: grid;
-  gap: 16px;
+  gap: 8px;
+  grid-template-columns: 1fr 1fr;
 }
 .skill__card{
   display: flex;
