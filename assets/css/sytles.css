@@ -307,6 +307,9 @@ position: absolute;
 
  .move__anim { animation: moving 2s ease-in-out infinite alternate;}
 
+
+ 
+
 @keyframes moving {
     0% {transform: translateY(0);}
     100% { transform: translateY(10px);}
@@ -393,7 +396,7 @@ position: absolute;
 }
 
 .skill__card .p__1{
-  font-size: 1rem;
+  font-size: 0.75rem;
    color: #222222;
    font-weight: 600;
 }
@@ -411,7 +414,7 @@ position: absolute;
 
 .skill__items .p__2{
   color: #222222;
-  font-size: 1rem;
+  font-size: 0.75rem;
   font-weight: 600;
 }
 
