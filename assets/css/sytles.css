@@ -68,8 +68,12 @@ a{
 
 img{
     height: auto;
-    border-radius: 8px;
-    border: 6px solid #Ffffff;
+   
+}
+
+.img__border{
+  border-radius: 8px;
+  border: 6px solid #Ffffff;
 }
 
 
