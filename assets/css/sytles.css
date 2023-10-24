@@ -134,9 +134,15 @@ p {
     padding-block-end: 4px;
     z-index: 4;
     width: 100%;
-    border-bottom: 1px solid #F48245;
+    /* border-bottom: 1px solid #F48245; */
 }
 
+marquee {
+  background-color: #3D7980;
+  color: #F2F2F2;
+  padding: 4px;
+  font-size: 0.75rem;
+}
 
 
 .header .container1 {
