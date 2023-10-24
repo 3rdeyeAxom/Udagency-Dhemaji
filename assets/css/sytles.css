@@ -573,14 +573,14 @@ h6 {
   object-fit: cover;
 }
 
-.has__scrollbar{
+/* .has__scrollbar{
   display: flex;
   align-items: center;
   overflow-x: auto;
   gap: 32px;
   padding-block-end: 24px;
   scroll-snap-type: inline mandatory;
-}
+} */
 
 
 .scrollbar__item{
