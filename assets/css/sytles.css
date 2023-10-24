@@ -146,7 +146,7 @@ marquee {
   padding: 4px;
   font-size: 0.75rem;
   position: absolute;
-  top: calc(var(--header-height) + 32px);;
+  top: calc(var(--header-height));;
   left: 0;
 
 
@@ -896,7 +896,7 @@ address h5{
     display: none;
   }
   .hero-section{
-    padding-block-start: calc(var(--header-height) + 32px);
+    padding-block-start: calc(var(--header-height) + 64px);
   }
 
   .hero__content{
@@ -1015,6 +1015,10 @@ address h5{
 
 @media(min-width: 768px){
 
+  marquee{
+    top: calc(var(--header-height) + 12px);;
+    
+  }
   .img__2{
     display: block;
   }
@@ -1086,6 +1090,16 @@ address h5{
 
 
 @media(min-width: 992px){
+
+  .hero-section{
+    padding-block-start: calc(var(--header-height) + 64px);
+
+  }
+
+  marquee{
+    top: calc(var(--header-height) + 32px);;
+    
+  }
   .img__3{
     display: block;
     height: 200px;
