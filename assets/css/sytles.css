@@ -43,6 +43,7 @@ html{
 body{
     background-color: #FEF3EC;
     color: #282828;
+    position: relative;
     
     
 }
@@ -138,10 +139,17 @@ p {
 }
 
 marquee {
+  
   background-color: #3D7980;
-  color: #F2F2F2;
+  color: #Ffffff;
+  font-weight: 600;
   padding: 4px;
   font-size: 0.75rem;
+  position: absolute;
+  top: calc(var(--header-height) + 32px);;
+  left: 0;
+
+
 }
 
 
@@ -252,7 +260,7 @@ position: absolute;
   
   .hero-section{
     position: relative;
-    padding-block-start: calc(var(--header-height) + 32px);
+    padding-block-start: calc(var(--header-height) + 64px);
     text-align: center;
     z-index: 1;
     overflow: hidden;
