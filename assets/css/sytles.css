@@ -98,34 +98,6 @@ p {
     visibility: hidden;
 }
 
-/* img slider */
-
-
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-
-.img__2, .img__3{
-  display: none;
-}
 
 
 
@@ -1244,3 +1216,34 @@ address h5{
   padding-block-start: calc(var(--header-height) + 72px);
  }
 }
+
+
+
+
+/* =========== project section ============= */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding-inline: 16px;
+  margin-inline: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
