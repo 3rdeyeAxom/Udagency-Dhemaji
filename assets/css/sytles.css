@@ -253,24 +253,11 @@ position: absolute;
   .hero__p {
     font-size: 0.75rem;
     color: #707070;
-    /* text-align: left; */
     position: relative;
-    width: 100%;
+    text-align: center;
   }
 
-  /* .hero__p::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -8px;
-    width: 4px;
-    height: 16px;
-    border-radius: 2px;
-    
-    background: #fc0e0e;
-    
-
-  } */
+  
   .hero__p span{
     display: inline-block;
     text-transform: uppercase;
@@ -351,8 +338,10 @@ position: absolute;
   gap: 16px;
   padding: 16px;
   border-radius: 8px;
-  transition: transform 1s;
+  transition: transform 0.5s ease-in-out;
   cursor: pointer;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
 }
 
 .skill__card:hover{
@@ -361,7 +350,6 @@ position: absolute;
 
 .skill__section .card__1{
   background: #E7F0B1;
-  border: 1px solid #768224;
 }
 .skill__card .img__holder{
   display: flex;
@@ -396,7 +384,7 @@ position: absolute;
 
 .skill__items .card__2{
   background: #C2E9EE;
-  border: 1px solid #336182;
+  
 }
 
 .skill__items .holder__2{
@@ -1236,7 +1224,7 @@ address h5{
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  cursor: pointer;
   
 }
 
@@ -1245,8 +1233,48 @@ address h5{
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 6px;
 }
 
+
+
+.recent__work{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block-end: 48px;
+}
+.recentWork__title{
+  font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 150%;
+    color: #282828;
+    
+    
+    position: relative;
+    
+}
+
+.recentWork__title::before,
+.recentWork__title::after{
+  content: '';
+  position: absolute;
+  border: 4px solid #FF0000;
+  height: 4px;
+  width: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 4px;
+  
+}
+
+.recentWork__title::before{
+  left: calc(-100px - 50px);
+}
+
+.recentWork__title::after{
+  left: calc(100% + 50px);
+}
 
 
 
