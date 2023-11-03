@@ -762,7 +762,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 8px;
+  padding: 6px;
  
   border-radius: 100%;
   transition: 1s ease-out;
@@ -1065,7 +1065,7 @@ address h5{
   }
 
   .work__list{
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .work__list .work__items{
@@ -1178,7 +1178,7 @@ address h5{
   }
 
   .online__section .work__list{
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .service__section .service__itemBox{
@@ -1309,8 +1309,8 @@ address h5{
 
 
 .social__items ion-icon{
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
 }
 
 
