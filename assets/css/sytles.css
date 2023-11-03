@@ -147,7 +147,7 @@ display: flex;
 padding: 10px;
 justify-content: center;
 align-items: center;
-gap: 10px;
+gap: 8px;
 flex-shrink: 0;
 }
 
@@ -1315,3 +1315,8 @@ address h5{
 
 
 
+.logo img{
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
