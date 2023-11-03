@@ -318,13 +318,13 @@ position: absolute;
 .skill__title{
     font-size: 1.75rem;
     font-weight: 700;
-    line-height: 150%;
+    line-height: 150%;mar
     color: #282828;
 }
 
 .skill__title .skill__span{
     color: #facfb8;
-    font-style: italic;
+    
 }
 
 .skill__content .skill__p{
@@ -1100,7 +1100,7 @@ address h5{
   }
 
   marquee{
-    top: calc(var(--header-height) + 32px);;
+    top: calc(var(--header-height) + 18px);;
     
   }
   .img__3{
