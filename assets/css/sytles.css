@@ -151,6 +151,12 @@ gap: 8px;
 flex-shrink: 0;
 }
 
+.logo img{
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+
 .logo__name{
 color: var(--mobile-live-secondary-cyan-dark, #3D7980);
 font-family: var(--ff);
@@ -1315,8 +1321,3 @@ address h5{
 
 
 
-.logo img{
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-}
