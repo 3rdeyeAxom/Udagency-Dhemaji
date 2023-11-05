@@ -213,6 +213,7 @@ position: absolute;
   transition: 0.25s var(--cubic-out);
   z-index: 2;
   border-radius: 4px;
+  
 }
 
 .nav.active {
@@ -319,7 +320,7 @@ position: absolute;
 .skill__title{
     font-size: 1.75rem;
     font-weight: 700;
-    line-height: 150%;mar
+    line-height: 150%;
     color: #282828;
 }
 
@@ -906,6 +907,12 @@ address h5{
     margin-bottom: 8px;
     order: 1;
 
+
+
+  }
+
+  .btnOrder{
+    order: 1;
   }
 
   .header .logo{
